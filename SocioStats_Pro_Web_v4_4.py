@@ -1076,7 +1076,8 @@ def main():
     # Header
     st.markdown('<div class="ssp-title">📊 SocioStats Pro Web v4.4</div>', unsafe_allow_html=True)
     st.markdown('<div class="ssp-subtitle">Análisis socioestadístico con interfaz web, resultados, gráficos y exportación.</div>', unsafe_allow_html=True)
-    
+
+    st.caption("Desarrollado por Jesús Platero")
     # Tabs principales
     main_tab, plot_tab, data_tab = st.tabs(["📊 Resultados", "📈 Gráficos", "📋 Datos"])
     
