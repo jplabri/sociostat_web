@@ -570,7 +570,7 @@ def group_comparison(df: pd.DataFrame, group_var: str, numeric_var: str) -> Tupl
     ]
     
     fig, ax = plt.subplots(figsize=(10, 6))
-    bp = ax.boxplot(groups, labels=labels, patch_artist=True, widths=0.6)
+    bp = ax.boxplot(groups, tick_labels=labels, patch_artist=True, widths=0.6)
     colors = ['lightblue', 'lightgreen', 'lightcoral', 'plum', 'lightskyblue'][:len(groups)]
     for patch, color in zip(bp['boxes'], colors):
         patch.set_facecolor(color)
