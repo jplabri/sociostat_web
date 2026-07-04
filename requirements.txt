@@ -1,0 +1,10 @@
+streamlit>=1.45
+pandas>=2.2
+numpy>=2.0
+matplotlib>=3.9
+seaborn>=0.13
+scipy>=1.14
+scikit-learn>=1.6
+statsmodels>=0.14
+prince>=0.13
+openpyxl>=3.1
